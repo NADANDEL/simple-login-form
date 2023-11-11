@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&family=Roboto+Condensed:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(stock.jpg);
+    font-family: sans-serif;
+}
+
+.title{
+    text-align: center;
+    padding: 50px 0 20px;
+}
+
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 36px;
+    letter-spacing: 0.1px;
+}
+
+.container{
+    width: 50%;
+    height: 700px;
+    background-image: url(stock.jpg);
+    background-size: #fff;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+.container .left{
+    float: left;
+    width: 50%;
+    height: 700px;
+    background: url(stock.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.container .right{
+    float: right;
+    width: 70%;
+    height: 200px;
+    background: #fff
+    box- border-box;
+}
+
+.formBox{
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    height: 400px;
+
+    box-sizing: border-box;
+}
+
+.formBox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #000000;
+}
+
+.formBox input{
+    margin-bottom: 20px;
+}
+
+.formBox input[type="text"],
+.formBox input[type="Password"]{
+    border: none;
+    border-bottom: 2px solid #000000;
+    outline: none;
+    height: 40px;
+
+}
+
+
+.formBox input[type="text"]:focus,
+.formBox input[type="Password"]:focus{
+    border-bottom: 2px solid #262626;
+}
+
+.formBox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    background-color: #262626;
+    cursor: pointer;
+}
+.formBox input[type="submit"]:hover{
+    background: #000000;
+}
+.formBox a {
+    color: #868181;
+    font-size: 12px;
+    font-weight: bold;
+}
